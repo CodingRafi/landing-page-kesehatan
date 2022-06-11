@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body,html{
+  scroll-behavior: smooth;
+}
+
+/* Todo Contact */
+.contact {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid grey;
+}
+
+.contact ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #11468f;
+  display: flex;
+  align-items: center;
+}
+
+.left-contact,
+.right-contact {
+  height: 100%;
+  display: flex;
+}
+
+.left-contact {
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-contact {
+  width: 51%;
+  justify-content: flex-end;
+}
+
+.left-contact ul li {
+  display: flex;
+}
+
+.contact img {
+  margin-right: 0.5rem;
+}
+/* Todo End Contact */
+
+/* Todo Navbar */
+
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.logo h2 {
+  margin-left: 1rem;
+  font-size: 22px;
+  color: #11468f;
+}
+
+.nav-link {
+  width: 450px;
+}
+
+.nav-link ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link ul li {
+  list-style: none;
+}
+
+.nav-link ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link ul li a:hover {
+  color: #11468f;
+  text-shadow: 1px 1px 10px #11468f;
+  transition: 0.5s;
+}
+
+.btn {
+  background-color: #11468f;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 5px #11468f;
+}
+
+/* Todo End Navbar */
+
+/* Todo Container 1 */
+
+.container{
+    background: url('../img/top.jpg');
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kanan{
+    text-align: end;
+    width: 94%;
+    padding-top: 6rem;
+    box-sizing: border-box;
+}
+
+.kanan p:first-child{
+    color: #18a6a8;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.kanan p:nth-child(2){
+    font-size: 80px;
+    font-weight: bold;
+    color: #11468f;
+}
+
+.kanan .btn-1{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #11468f;
+    color: #fff;
+    width: 150px;
+}
+/* Todo End Container 1 */
+
+/* Todo Container 2 */
+.container2{
+    background-image: url('../img/index.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 70%;
+    margin-top: -90px;
+    margin-left: 15%;
+    border-radius: 10px;
+    padding-bottom: 3rem;
+}
+
+.box2{
+    display: flex;
+    gap: 5rem;
+    margin-left: 60px;
+}
+
+.box1{
+    padding-top: 50px;
+    margin-left: 60px;
+}
+
+.box1 p{
+    color: rgba(24, 166, 168, 1);
+}
+
+.box1 h1{
+    padding-top: 20px;
+    color: rgba(17, 70, 143, 1);
+}
+
+.kotak1{
+    width: 300px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.kotak1 h1{
+    padding-top: 30px;
+}
+
+.container2 button{
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 1px solid #11468f;
+    background-color: #f0f0f0;
+    color: #11468f;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container2 button:hover{
+    background-color: #11468f;
+    color: #fff;
+    transition: .5s;
+}
+/* Todo End Container 2 */
+
+/* Todo Container 3 */
+.container3{
+  margin-top: 3rem;
+}
+
+.container3 h2{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 27px;
+  color: #11468f;
+}
+
+.container3-isi{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-isi{
+  width: 350px;
+  height: 550px;
+}
+
+.container-isi img{
+  width: 350px;
+  height: 230px;
+}
+
+.main1{
+  width: 300px;
+  margin: auto;
+  margin-top: -30px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 1px 1px 10px rgb(175, 175, 175);
+}
+
+.up-layers{
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.up-layers h3, .up-layers p{
+  margin-bottom: 1.5rem;
+}
+
+.layers-btn{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.layers-btn:hover{
+  background-color: #11468f;
+  transform: scale(1.1);
+  border: none;
+  color: #fff;
+  transition: .5s;
+}
+/* Todo End Container 3 */
+
+/* Todo Container 4 */
+.container4{
+  height: 100vh;
+  margin-top: 4rem;
+}
+
+.kartu-kata{
+  width: 345px;
+  height: 230px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.kartu img{
+  height: 230px;
+}
+
+.kata p{
+  color: #18a6a8;
+  font-size: 15px;
+}
+
+.kata h3{
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.atas{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  gap: 35px;
+}
+
+/* Todo End Container 4 */
+
+/* Todo Container 5 */
+.container5{
+  height: 100vh;
+}
+
+.d{
+  font-size: 30px;
+  margin-left: 3rem;
+}
+
+.d h1{
+  font-size: 30px;
+  margin-bottom: 3rem;
+}
+
+.profil-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  box-shadow: 1px 1px 10px rgb(175, 175, 175);
+  text-align: center;
+}
+
+.card-img{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+.card-body{
+  width: 300px;
+}
+
+.card-body h2, .card-body p{
+  margin-bottom: .5rem;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+/* Todo End Container 5 */
+
+/* Todo Container 6 */
+.container6{
+  text-align: center;
+  height: 700px;
+  width: 70%;
+  margin: auto;
+}
+
+.box4{
+  width: 300px;
+}
+
+.box4 h2{
+  margin-bottom: 1rem;
+}
+
+.box4 img{
+  width: 250px;
+  height: 180px;
+  margin-bottom: 1rem;
+}
+
+.box3{
+  text-align: center;
+}
+
+.kelompok{
+  display: flex;
+  justify-content: space-around;
+  gap: 8rem;
+}
+
+.box3 h1{
+  padding-top: 10px;
+  margin-bottom: 5rem;
+}
+
+.box3 p{
+  padding-top: 50px;
+  color: #18a6a8;
+  font-size: 15px;
+}
+
+.btn-primary{
+  padding: 10px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #11468f;
+  color: #11468f;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.btn-primary:hover{
+  background-color: #11468f;
+  color: #fff;
+  transition: .5s;
+}
+/* Todo End Container 6 */
+
+/* Todo Container 7 */
+.container7{
+  height: 600px;
+}
+
+.container7 p{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.container7 h2{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 3rem;
+  color: #11468f;
+}
+
+.luar{
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+
+.bungkus{
+  width: 350px;
+}
+
+.kart img{
+  margin-bottom: 1rem;
+}
+
+.kart-dalam{
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+
+.kart-dalam h4{
+  margin-top: 1rem;
+  font-size: 17px;
+}
+/* Todo End Container 7 */
+
+/* Todo Footer */
+.footer{
+  height: 300px;
+  background-color: #11468f;
+}
+
+.cover{
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+}
+
+.quick-link, .fasilitas, .more, .footer-contact{
+  width: 25%;
+}
+
+.quick-link ul, .fasilitas ul, .more ul, .footer-contact ul{
+  list-style: none;
+  line-height: 30px;
+}
+
+.quick-link ul li a, .fasilitas ul li a, .more ul li a, .footer-contact p{
+  text-decoration: none;
+  color: #fff;
+}
+
+.cover h2{
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* Todo End Footer */
